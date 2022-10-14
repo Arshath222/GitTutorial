@@ -1,0 +1,54 @@
+
+GIT & GITHUB MY UNDERSTANDING
+Git is open source version control system.
+Used to track the codes
+Synchronise the code
+In Git we create code in Worksapce
+Then we will save and other process called Staging
+Then will need to add & commit the code in local repository 
+Afterthat we will push the code to local to remote/host repository, that repository is called Github
+In that github there are two repository
+*Public 
+*Private
+Public:
+  Anyone can access the repository and change our codes
+Private:
+  Only few people can access the repository with our permission.
+       Ex: In our organization , we have project in our team, so we can set as private repository and give permission to our team mates to change our code
+In GitHub there is a main branch and some sub branches are there
+Main Branch
+   After all changes and modification there is only one single source of code is ther is main branch
+Sub Branches
+  In One project there are many features are ther and many members will work , so for each feature each member create a sub branches, after combined all the sub braches code and will insert to main branch
+How we can pull Host Repository to Local Repository
+  We can use the command of Gitpull and will paste the URL, then the codes will pull to local after that we will chagnges the required code and and summit it
+How we can push Local Repository to Host Repository
+  after we summit our codes in local, the use the command git push, git push will push the codes local to host. The any body can access that if it is in public , they will pull it and change the codes and then again push to host . 
+Git clone
+     We also use gitclone to pull codes from host to local Repository
+There are some command lines to be used
+  For Ex:
+     List - ls
+     change Directory - cd
+Merge Conflicts
+   Merge conflicts means if we pull codes from host to local, at that time in a same line the code will changes the conflicts happens
+for ex: In local we save a code like
+   a=1
+   b=2
+   print (a+b)
+we will move this code to host/remote repository
+In Host repository any one of our team mate pull the code and change the same line then merge conflict raises
+For ex: they change the first line of code
+   a=5
+   b=2
+   print(a+b)
+The same first line is changed by someone. so it will shows merge conflicts
+it will shows like
+<<<<<< ----> Local change
+a=1
+===== 
+a=5  
+>>>>>> 7gigho8fi552gftiu ----> Commit dash
+we can change our code and then commit the file 
+
+
