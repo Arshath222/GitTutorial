@@ -1,0 +1,36 @@
+BASIC SYNTAX RULES OF C
+Intro:
+  Syntax is nothing but its just a rules for the code lines, like how should the line of code start , how should end, where we need to use semicolon,
+  where we need to use open, close braces these are including in syntax
+ C Tokens:
+   this is the smallest individual unit in C program. 
+   Tokens are nothing but keywors, identifiers, constants or variables etc. C is having various collection of tokens
+    Ex:
+    printf(Hello world);
+    printf----> token
+    ()-----> token
+    Hello world ----> token
+    ; -----> token
+
+Semicolon (;) every statement that ends with semicolon only , if you put the semicolon then only the next line is considered as new line , or else the line will continue through
+Adding some commands:
+    commands is nothing but just a simple text to understand the line of the part
+ there are 2 types of commands are there 
+   // - this is used for a single line command
+   /* */ these is multi line commands , starts with /* and end with */
+
+C is a case sensitive language so all will be written in lower case letters only 
+   Ex: else is not same as ELSE
+
+() - when we write a function its body is enclosed with the curly braces 
+Example of basic syntax:
+#include <stdio.h> ----> header file we included
+{
+int main () -----> main function is very important in that function only we will proceed the main function of a program
+printf("Hello world"); ----. properly we put semicolon to tell that the line is end .
+ return 0;
+ } -----> to mention the program is finishes
+
+
+  
+
