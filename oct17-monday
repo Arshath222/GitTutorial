@@ -1,0 +1,28 @@
+Basics of C
+C is a middle level structured programming language
+It is introduced by dennis ritchie on 1972 at bell laboratories
+C is evolved from three different structured Language like ALGOL, BL, B 
+C is mostly used for Text Editor, compilers , Network Drivers, POS etc
+
+* Features of C
+    Modularity - resuable the modules
+    Mid Level Language - combined architecture of low & high level language 
+    Portability - C program can be compiled and executed in any OS ( unix, DOS, Windows)
+    Powerful Programming Language - It is very efficient & powerful programming Language
+    Standard Library - C is providing the strongest structured Library
+    External Libraries - c is having tonees of external libraries
+    Syntax Based Language 
+
+C is mainly focusing on Enterprise applications, games, graphics & application requiring calculatiion or simple software etc
+
+#include ----> preprocesser
+    It will link with the heder file like ex stdio.h, conio.h , string.h 
+There are many pre processer are there 
+ #include, #if, #define , #undef, #idef
+
+ int main () ----> This is the main function . this is the entry point of the codes of execution
+ int ----> return type;
+
+ printf-----> what ever the user will enter it will print and show up in the output 
+
+ 
