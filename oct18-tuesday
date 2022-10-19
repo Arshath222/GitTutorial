@@ -1,0 +1,39 @@
+C COMPILATION PROCESS 
+in c compilation there are 3 processes 
+  * Preprocessing
+  * code compiling
+  * libraries linking 
+
+  Compilaton :
+   The convertion of code that written in any programming language into understandable computer language is called compilation
+   The software used for this convertion is called compiler
+
+   Ex
+     source code ----- > written by the user
+        !
+      compiler ----- > covertion process 
+        !
+      object code -----> 010110101101010
+
+          At the compilation process it will check if there is any syntax or structure errors, no eeor found then it will generates the object code that has extension.obj
+          linux extension.o
+
+    In this full fledged process there are many steps are there
+      * Pre processer
+      * compiler
+      * Assembler
+      * Linker 
+
+      Preprocessor
+         This is the first process that preprocesser starts with # . 
+         The word after # is called pre processer commands
+         Ex : #include, #error
+
+     Compiler 
+        after preprocessing then it comes to compiling part, it will check for the syntax error and other structural error. if there is no erroe found
+        then it will assemble the code and send it to the assembler
+     Assembler 
+        It is also a part of compilation. assemble all the codes into structured code
+     Linker 
+        Linker is used for some big programs, we can seperates the files & codes then we will link the two seperate files into 1 main files. 
+
