@@ -1,0 +1,29 @@
+KEYWORDS & IDENTIFIERS
+ 
+TOKENS:
+   tokens included keywords, identifiers, operators, special symbols etc. These are the building blocks for every C programs
+  KEYWORDS - int,float, double, char etc
+  IDENTIFIERS - var, myvar, fun_1
+  OPERATORS - +,-,*,%
+  SPECIAL SYMBOLS - (), {}
+  main():
+   The main() is not a keyword, but we should treat it as a keyword. because this is a special function
+Keywords:
+  Keywords are nothing but its reserved already by the language. Like keywords are Predefined. it's just to identify what type of datatype is that.
+  It is mainly used to avoid the confusion while compiling a program, there are many keywords listed in c kanguage.
+  Example: int, float, char, double, if, else, enum, while, do, for, break, case
+  * We cannot use keywords as IDENTIFIERS
+Identifiers:
+  Identifiers are nothing but word or text used to identify anything in c language
+  When we define a variable, function or structure we name them so that it becomes easier for us to identify 
+  An Identifiers can only have alphanumeric character  and underscore
+  The first character of an identifier can only contain alphabet 
+  The identifier is just a name for the variables or constant etc.
+  Ex: var1 , myfun1, var_1
+  Identifiers are case sensitive like name and NAME are considered as different
+  In the C Language Identifiers are the name given to
+      * variables
+      * constant
+      * function
+      * structure
+      * pointers to identify them.
